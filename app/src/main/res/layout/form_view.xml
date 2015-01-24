@@ -37,9 +37,10 @@
         android:layout_height="wrap_content"
         android:text="Submit"
         android:id="@+id/submit"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="submitForm"/>
+        android:onClick="submitForm"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="28dp"
+        android:layout_centerHorizontal="true" />
 
 
 
